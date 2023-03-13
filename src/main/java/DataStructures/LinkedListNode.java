@@ -2,14 +2,14 @@ package DataStructures;
 
 public class LinkedListNode {
     private int value;
-    private LinkedListNode next;
+    public LinkedListNode next;
 
     public LinkedListNode(int value) {
         this.value = value;
         this.next = null;
     }
 
-    public int getValue() {
+    public int val() {
         return value;
     }
 
